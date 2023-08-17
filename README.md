@@ -37,7 +37,7 @@ Após selecionar uma operação, você receberá alertas exibindo os resultados 
 
 - Números inseridos: 5 e 7
 - Resultado: A soma entre 5 e 7 é: 12
- .A subtração entre 5 e 7 é: -2
+- A subtração entre 5 e 7 é: -2
 
 ## Próximos Passos 🚀
 

@@ -17,8 +17,7 @@ O objetivo desta calculadora é proporcionar uma ferramenta para realizar opera�
 
 1. Abra o arquivo `index.html` em um navegador web.
 2. Insira dois números nos campos designados.
-3. Selecione a operação que deseja realizar.
-4. Os resultados e análises serão exibidos em alertas.
+3. Os resultados e análises serão exibidos em alertas.
 
 ## Funcionalidades 🔧
 
@@ -37,8 +36,8 @@ Após selecionar uma operação, você receberá alertas exibindo os resultados 
 ## Exemplo de Uso 🌟
 
 - Números inseridos: 5 e 7
-- Operação selecionada: Soma
 - Resultado: A soma entre 5 e 7 é: 12
+ .A subtração entre 5 e 7 é: -2
 
 ## Próximos Passos 🚀
 

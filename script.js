@@ -14,7 +14,7 @@ Fácil até aqui, né? Bora se desafiar? 👀 🧑‍🚀
 let num1 = Number(prompt("Digite um número: "));
 let num2 = Number(prompt("Digite outro número: "));
 
-// criar um alerta se o usuário não digitar um número e retornar para o início
+
 while (isNaN(num1) || isNaN(num2)) {
   alert("Você não digitou um número em uma das caixinhas. Tente novamente.");
   num1 = Number(prompt("Digite um número: "));
@@ -58,23 +58,23 @@ function isEquals(num1, num2) {
 }
 
 alert(`
-A soma entre ${num1} e ${num2} é: ${sum(num1, num2)}
+A soma entre ${num1} e ${num2} é: ${sum(num1, num2).toFixed(2)}
 `);
 
 alert(`
-A subtração entre ${num1} e ${num2} é: ${subtraction(num1, num2)}
+A subtração entre ${num1} e ${num2} é: ${subtraction(num1, num2).toFixed(2)}
 `);
 
 alert(`
-A multiplicação entre ${num1} e ${num2} é: ${multiplication(num1, num2)}
+A multiplicação entre ${num1} e ${num2} é: ${multiplication(num1, num2).toFixed(2)}
 `);
 
 alert(`
-A divisão entre ${num1} e ${num2} é: ${division(num1, num2)}
+A divisão entre ${num1} e ${num2} é: ${division(num1, num2).toFixed(2)}
 `);
 
 alert(`
-O resto da divisão entre ${num1} e ${num2} é: ${rest(num1, num2)}
+O resto da divisão entre ${num1} e ${num2} é: ${rest(num1, num2).toFixed(0)}
 `);
 
 alert(sumIsEven(num1, num2));
